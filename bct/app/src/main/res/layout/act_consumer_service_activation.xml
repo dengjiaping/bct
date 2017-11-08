@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+	<ListView
+		android:id="@+id/activation_list"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:id="@+id/activation_activate"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:background="@color/primary_color"
+		android:gravity="center"
+		android:text="@string/activation"
+		android:textColor="@color/white"
+		android:textSize="16sp"/>
+</LinearLayout>
